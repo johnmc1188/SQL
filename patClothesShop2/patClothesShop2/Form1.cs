@@ -21,7 +21,6 @@ namespace patClothesShop2
         {
             this.Validate();
             this.tableAdapterManager.UpdateAll(this.database1DataSet);
-
         }
 
         private void Form1_Load(object sender, EventArgs e)

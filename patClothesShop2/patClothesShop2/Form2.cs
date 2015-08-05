@@ -30,7 +30,7 @@ namespace patClothesShop2
         private void button1_Click(object sender, EventArgs e)
         {
             bindingSource1.EndEdit();
-            customerTableAdapter1.Update(database1DataSet1.Customer);
+           
             //save changes to the database
             int result = 0;
             //return number of items updated
